@@ -38,7 +38,7 @@ class JsonProvider extends Provider
         // TODO: Implement insert() method.
     }
 
-    public function update($id, string $table, $array): string
+    public function update($id, string $table, $array): bool
     {
         // TODO: Implement update() method.
     }
