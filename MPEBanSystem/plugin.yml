@@ -1,5 +1,5 @@
 name: MPEBanSystem
 version: 0.0.1
-main: XackiGiFF\MPEBanSystem\Main
+main: XackiGiFF\MPEBanSystem\MPEBanSystem
 api: 5.18.1
 src-namespace-prefix: XackiGiFF\MPEBanSystem

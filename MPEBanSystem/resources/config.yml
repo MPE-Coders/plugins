@@ -1,0 +1,13 @@
+# While select 'mysql' or 'sqlite3' you need add DSN link:
+# user-data:
+#   type: 'mysql'
+#   dsn: 'mysql:dbname=testdb;host=127.0.0.1'
+#   username: 'mysql_username'
+#   password: 'mysql_password'
+# But when select SQLite3 you need set:
+# user-data:
+#   type: 'sqlite3'
+#   dsn: 'userdata.db'
+# Not need set "uri:file:///" cause gets from PluginDataPath
+user-data:
+  type: 'json' # 'json', 'yaml', 'mysql', 'sqlite3'
